@@ -23,7 +23,7 @@ const randomNote = notes[Math.floor(Math.random() * notes.length)];
 noteDisplay.textContent += `${randomNote} `;
 count++;
 if (count < 5) {
-setTimeout(generateNext, 2000);  // 3초 간격
+setTimeout(generateNext, 1000);  // 3초 간격
 } else {
 // 연속 생성 끝
 autoBtn.textContent = "연속 생성";
