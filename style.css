@@ -43,4 +43,12 @@ body {
     color: #333;
     cursor: not-allowed;
   }
+
+  #interval-input {
+    display: block;
+    margin: 10px auto 0 auto; /* 위 여백 + 중앙 정렬 */
+    font-size: 16px;
+    padding: 8px;
+    width: 150px;
+  }
   
